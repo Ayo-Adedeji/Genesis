@@ -1,0 +1,439 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+
+}
+.nav-logo{
+    width: 100px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.nav-logo:hover {
+
+}
+nav{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 10px;
+    gap: px;
+    
+
+}
+.profile_picture{
+width: 30px ;
+height: 30px;
+border-radius: 50%;
+object-fit: cover;
+margin-right: 23px;
+cursor: pointer;
+}
+.right-box{
+display: flex;
+align-items: center;
+gap: 30px;
+
+}
+.search{
+border-radius: 25px; 
+width: 70%; 
+height: 35px; 
+padding-left: 10px; 
+border: 1px solid gainsboro;
+outline: none;
+font-size: 15px;
+}
+.middle-box{
+width: 73%;
+margin-left: 300px;
+
+}
+.left-box{
+
+}
+.create-btn{
+padding: 10px 40px;
+border-radius: 20px;
+border: none;
+cursor: pointer;
+}
+.create-btn:hover {
+background-color: gainsboro;
+}
+.main-section{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+gap: 50px;
+margin-top: 38px;
+margin-left: 95px;
+}
+.video-card{
+    width: 300px;
+}
+.tags{
+display: flex;
+margin-left: 95px;
+margin-top: 14px;
+gap: 10px;
+
+
+}
+.one{
+    border-radius: 8px;
+    width: 40px;
+    height: 30px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-family: roboto;
+    font-weight: 500;
+}
+.one:hover {
+ 
+}
+.two{
+    border-radius: 8px;
+    width: 130px;
+    height: 30px;
+    border: none;
+    font-family: roboto;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.two:hover {
+background-color: gainsboro;
+}
+.three{
+    border-radius: 8px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    font-family: roboto;
+    font-weight: 500;
+    cursor: pointer;
+}
+.three:hover {
+background-color: gainsboro;
+}
+
+.four{
+    border-radius: 8px;
+    width: 115px;
+    height: 30px;
+    border: none;
+    font-family: roboto;
+    font-weight: 500;
+    cursor: pointer;
+}
+.four:hover {
+    background-color: gainsboro;
+}
+.five{
+    border-radius: 8px;
+    width: 60px;
+    height: 30px;
+    border: none;
+    font-family: roboto;
+    font-weight: 500;
+    cursor: pointer;
+}
+.five:hover {
+    background-color: gainsboro;
+}
+.six{
+    border-radius: 8px;
+    width: 60px;
+    height: 30px;
+    border: none;
+    font-family: roboto;
+    font-weight: 500;
+    cursor: pointer;
+}
+.six:hover {
+    background-color: gainsboro;
+}
+.seven{
+    border-radius: 8px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    font-family: roboto;
+    font-weight: 500;
+    cursor: pointer;
+}
+.seven:hover {
+    background-color: gainsboro;
+}
+.eight{
+    border-radius: 8px;
+    width: 80px;
+    height: 30px;
+    border: none;
+    font-family: roboto;
+    font-weight: 500;
+    cursor: pointer;
+}
+.eight:hover {
+    background-color: gainsboro;
+}
+.nine{
+    border-radius: 8px;
+    width: 80px;
+    height: 30px;
+    border: none;
+    font-family: roboto;
+    font-weight: 500;
+    cursor: pointer;
+}
+.nine:hover {
+    background-color: gainsboro;
+}
+.ten{
+    border-radius: 8px;
+    width: 80px;
+    height: 30px;
+    border: none;
+    font-family: roboto;
+    font-weight: 500;
+    cursor: pointer;
+}
+.ten:hover {
+    background-color: gainsboro;
+}
+.eleven{
+    border-radius: 8px;
+    width: 80px;
+    height: 30px;
+    border: none;
+    font-family: roboto;
+    font-weight: 500;
+    cursor: pointer;
+}
+.eleven:hover {
+    background-color: gainsboro;
+}
+.twelve{
+    border-radius: 8px;
+    width: 60px;
+    height: 30px;
+    border: none;
+    font-family: roboto;
+    font-weight: 500;
+    cursor: pointer;
+}
+.twelve:hover {
+    background-color: gainsboro;
+}
+.thirteen{
+    border-radius: 8px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    font-family: roboto;
+    font-weight: 500;
+    cursor: pointer;
+}
+.thirteen:hover {
+    background-color: gainsboro;
+}
+.fourteen{
+    border-radius: 8px;
+    width: 80px;
+    height: 30px;
+    border: none;
+    font-family: roboto;
+    font-weight: 500;
+    cursor: pointer;
+}
+.fourteen:hover {
+    background-color: gainsboro;
+}
+.fifteen{
+    border-radius: 8px;
+    width: 90px;
+    height: 30px;
+    border: none;
+    font-family: roboto;
+    font-weight: 500;
+    cursor: pointer;
+}
+.fifteen:hover {
+    background-color: gainsboro;
+}
+.video-details-pp{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.video-details{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.video-details h2, p{
+    margin: 0;
+}
+.title{
+    font-size: 16px;
+    font-weight: 500;
+}
+.channel{
+    font-size: 14px;
+}
+.stat{
+    font-size: 14px;
+    margin-top: px;
+}
+.video-text{
+    display: flex;
+    flex-direction: column;
+gap: 5px;
+
+}
+.video-function{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+
+    
+}
+.image-container{
+    width: 300px;
+    height: 180px;
+    position: relative;
+    
+}
+.video-function:hover{
+border-radius: 0;
+}
+.duration{
+    background-color: black;
+    width: fit-content;
+    color: white;
+    font-size: 10px;
+    padding: 1px 4px;
+    border-radius: 2px;
+    position: absolute;bottom: 1px; right: 4px;
+    
+    
+}
+.shorts-logo{
+    width: 120px;
+    height: 60px;
+ margin-left: 100px;
+ margin-top: 20px;
+}
+.main-sec{
+display: flex;
+margin-left: 80px;
+gap: 8px;
+
+}
+.shorts-image{
+    width: 270px;
+    height: 480px;
+    border-radius: 10px;
+
+}
+.view{
+    display: flex; 
+    flex-direction: column;
+}
+.writing{
+    font-size: 17px; font-family: roboto; font-weight: 500;
+}
+.shorts-overall{
+    width: 240px;
+    padding: 0px 18px;
+    
+    
+}
+.buttons-for{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-top: 10px;
+
+    
+}
+.butto{
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    font-family: roboto;
+    font-weight: 500;
+    color: blue;
+    background-color: white;
+    border: 1px solid gainsboro;
+    outline: none;
+    cursor: pointer;
+}
+.butto:hover {
+background-color: lightblue;
+}
+.butoo{
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    font-family: roboto;
+    font-weight: 500;
+    color: blue;
+    background-color: lightblue;
+    border: none;
+    cursor: pointer;
+
+}
+.butoo:hover {
+background-color: gainsboro;
+}
+.fa-bell{
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+.fa-microphone{
+ 
+   cursor: pointer;
+   /* margin-left: 10px;
+   background-color: darkgrey;
+   width: 40px;
+   height: 40px;
+   object-fit: cover;
+   border-radius: 50px; */
+}
+.fa-microphone:hover {
+
+}
+
+
+
+@media (max-width:600px) {
+    .create-btn{
+        display: none;
+       }
+       .main section{
+        grid-template-columns: 1fr 1fr; 
+       }
+       .title{
+        color: red;
+       }
+       .fa-bell{
+        display: none;
+    }
+
+}
+
+@media (width:720px) {
+    .title{
+        color: yellow;
+    }
+}
+
+
