@@ -1,0 +1,96 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1180px;
+    height: 70px;
+    margin: auto;
+    padding: 0 18px;
+
+    
+
+    
+   
+}
+.mid-box{
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    font-family: rubik, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: #11161d;
+    gap: 35px;
+    
+}
+.rit-box{
+display: flex;
+flex-direction: row;
+gap: 20px;
+}
+.product{
+    
+
+
+}
+
+.pricing{
+
+    font-family: roboto;
+    font-size: 15px;
+    font-family: rubik, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #11161d;
+
+}
+.resources{
+
+    font-size: 15px;
+    font-family: rubik, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #11161d;
+
+}
+.book{
+    
+    font-family: rubik, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #11161d;
+
+}
+.log{
+   width: 90px;
+   height: 40px;
+   text-align: center;
+   border-radius: 12px;
+   font-family: rubik, Arial, Helvetica, sans-serif;
+   font-size: 14px;
+   font-weight: 700;
+   border: 2px solid #b2bac1;
+   background: transparent;
+   color: #000;
+   cursor: pointer;
+   
+   font-family: rubik, Arial, Helvetica, sans-serif;
+}
+.sign{
+    width: 63%;
+   height: 40px;
+   text-align: center;
+   border-radius: 12px;
+   font-family: rubik, Arial, Helvetica, sans-serif;
+   font-size: 14px;
+   font-weight: 700;
+   border: 2px solid #b2bac1;
+   background: transparent;
+   color: #000;
+   cursor: pointer;
+   background-color: #00a2ff;
+   color: #fff;
+   border: 2px solid #3393f2;
+   font-family: rubik, Arial, Helvetica, sans-serif;
+
+}
+
