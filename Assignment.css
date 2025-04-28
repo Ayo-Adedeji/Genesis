@@ -2,16 +2,12 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1180px;
-    height: 70px;
+    width: 1195px;
+    height: 60px;
     margin: auto;
-    padding: 0 18px;
-
-    
-
-    
-   
+    border-bottom: 1px solid #d3d5d9;;
 }
+
 .mid-box{
     display: flex;
     flex-direction: row;
@@ -20,51 +16,44 @@ nav {
     font-weight: 500;
     color: #11161d;
     gap: 35px;
+    cursor: pointer;
+    margin-bottom: 6px;
     
 }
+
+
 .rit-box{
 display: flex;
 flex-direction: row;
 gap: 20px;
+margin-right: 18px;
 }
-.product{
+.product :hover {
     
-
-
+    color: #00baff;
+font-weight: 500;
 }
 
-.pricing{
+.pricing:hover {
+    color: #00baff;
+   font-weight: 500;
 
-    font-family: roboto;
-    font-size: 15px;
-    font-family: rubik, Arial, Helvetica, sans-serif;
-    font-size: 15px;
+}
+.resources:hover {
+font-weight: 500;
+    color: #00baff;
+}
+.book:hover {
+    color: #00baff;
     font-weight: 500;
-    color: #11161d;
-
-}
-.resources{
-
-    font-size: 15px;
-    font-family: rubik, Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    font-weight: 500;
-    color: #11161d;
-
-}
-.book{
     
-    font-family: rubik, Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    font-weight: 500;
-    color: #11161d;
-
 }
 .log{
-   width: 90px;
+   width: 75px;
    height: 40px;
    text-align: center;
    border-radius: 12px;
+   border-color: #b2bac1;
    font-family: rubik, Arial, Helvetica, sans-serif;
    font-size: 14px;
    font-weight: 700;
@@ -72,25 +61,127 @@ gap: 20px;
    background: transparent;
    color: #000;
    cursor: pointer;
-   
+   margin-bottom: 8px;
+   transition: all .1s ease-in-out;
    font-family: rubik, Arial, Helvetica, sans-serif;
 }
 .sign{
-    width: 63%;
+    width: 55%;
    height: 40px;
    text-align: center;
    border-radius: 12px;
    font-family: rubik, Arial, Helvetica, sans-serif;
    font-size: 14px;
    font-weight: 700;
-   border: 2px solid #b2bac1;
    background: transparent;
+   transition: all .1s ease-in-out;
    color: #000;
    cursor: pointer;
    background-color: #00a2ff;
    color: #fff;
    border: 2px solid #3393f2;
    font-family: rubik, Arial, Helvetica, sans-serif;
+   margin-bottom: 8px;
 
 }
 
+.sign:hover {
+background: transparent;
+color: #3393f2;
+}
+.log:hover {
+    background: transparent;
+    color: #3393f2;
+    border: 2px solid #3393f2;
+}
+.picture{
+    cursor: pointer;
+
+}
+.picture:hover {
+
+}
+.heading{
+    text-align: center;
+    
+    
+}
+.All{
+    font-family: rubik, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 1.4;
+    color: #717171;
+    letter-spacing: 0.56px;
+    font-size: 14px;
+    margin-top: 25px;
+}
+.Free{
+   width: 292.33px;
+   height: 56.8px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: rubik, Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    color: #191b19;
+    background-color: #fbe30c;
+   border: 2px solid #e3d500;
+   border-radius: 24px;
+   line-height: 1;
+   text-align: center;
+   cursor: pointer;
+   margin-bottom: 8px;
+}
+.Free:hover {
+ background-color: #38a2ff;
+ border-color: #2c85d5;
+ color: #fff;
+
+}
+.header{
+    color: #000;
+    font-family: rubik, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 69.312px;
+    line-height: 1.13;
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+.header-second{
+    color: #000;
+    font-family: rubik, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-top: 18px;
+    margin-bottom: 60px;
+}
+.small{
+    font-family: rubik, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    
+    letter-spacing: 0.2px;
+}
+.fa-angle-right{
+    
+}
+@media (max-width:600px) {
+.product{
+    display: none;
+}
+.pricing{
+    display: none;
+}
+.resources{
+    display: none;
+}
+.book{
+    display: none;
+    
+}
+.sign{
+    display: inline-block;
+}
+.sign{
+    font-size: 17px;
+}
+}
